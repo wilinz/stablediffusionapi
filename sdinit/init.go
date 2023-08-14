@@ -11,7 +11,7 @@ import (
 
 var currentHttpClient *resty.Client
 
-const baseUrl = "https://github.com/wilinz/stablediffusionapi.com/api/"
+const baseUrl = "https://stablediffusionapi.com/api/"
 
 func init() {
 	config := sdconfig.SDConfig{
