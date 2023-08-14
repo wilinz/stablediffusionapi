@@ -4,10 +4,12 @@ import (
 	"github.com/wilinz/stablediffusionapi/sdcommunity/model"
 )
 
-func FetchQueuedImages(id int64) (*model.FetchQueuedImagesResponse, error) {
+func FetchQueuedImages(id string) (*model.FetchQueuedImagesResponse, error) {
 	url := "v4/dreambooth/fetch"
 
-	payload := model.FetchQueuedImagesRequest{}
+	payload := model.FetchQueuedImagesRequest{
+		RequestId: id,
+	}
 	payload.Key = apiKey
 	resp, err := httpClient.R().
 		SetHeader("Content-Type", "application/json").
