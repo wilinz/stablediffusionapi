@@ -1,8 +1,3 @@
-# stablediffusionapi
-
-# How to use
-
-```go
 package stablediffusionapi
 
 import (
@@ -100,5 +95,3 @@ func TestModelList(t *testing.T) {
 	result, _ := sdcommunity.ModelList()
 	fmt.Printf("%#v\n", result)
 }
-
-```
