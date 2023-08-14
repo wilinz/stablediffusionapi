@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func Interior(payload model.InteriorRequest) (*model.InteriorResponse, error) {
 	url := "v5/interior"

@@ -2,7 +2,7 @@ package sdcommunity
 
 import (
 	"github.com/go-resty/resty/v2"
-	"stablediffusionapi/sdcommunity/model"
+	"github.com/wilinz/stablediffusionapi/sdcommunity/model"
 )
 
 func ModelReload(payload model.ModelReloadRequest) (*resty.Response, error) {

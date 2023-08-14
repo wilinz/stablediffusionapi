@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func Depth2Img(payload model.Depth2ImgRequest) (*model.Depth2ImgResponse, error) {
 	url := "v5/depth2img"

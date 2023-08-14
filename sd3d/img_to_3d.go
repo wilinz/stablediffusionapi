@@ -1,6 +1,6 @@
 package sd3d
 
-import "stablediffusionapi/sd3d/model"
+import "github.com/wilinz/stablediffusionapi/sd3d/model"
 
 func ImgTo3d(payload model.ImgTo3dRequest) (*model.ImgTo3dResponse, error) {
 	url := "v3/img_to_3d"

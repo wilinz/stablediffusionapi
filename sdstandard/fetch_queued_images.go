@@ -2,7 +2,7 @@ package sdstandard
 
 import (
 	"fmt"
-	model2 "stablediffusionapi/sdstandard/model"
+	model2 "github.com/wilinz/stablediffusionapi/sdstandard/model"
 )
 
 func FetchQueuedImages(id int64) (*model2.FetchQueuedImagesResponse, error) {

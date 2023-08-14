@@ -1,7 +1,7 @@
 package sdstandard
 
 import (
-	model2 "stablediffusionapi/sdstandard/model"
+	model2 "github.com/wilinz/stablediffusionapi/sdstandard/model"
 )
 
 func Text2Img(payload model2.Text2ImgRequest) (*model2.Text2ImgResponse, error) {

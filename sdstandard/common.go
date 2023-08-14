@@ -2,7 +2,7 @@ package sdstandard
 
 import (
 	"github.com/go-resty/resty/v2"
-	"stablediffusionapi/sdconfig"
+	"github.com/wilinz/stablediffusionapi/sdconfig"
 )
 
 var (

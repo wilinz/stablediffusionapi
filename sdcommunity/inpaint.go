@@ -1,7 +1,7 @@
 package sdcommunity
 
 import (
-	"stablediffusionapi/sdcommunity/model"
+	"github.com/wilinz/stablediffusionapi/sdcommunity/model"
 )
 
 func InPaint(payload model.InPaintRequest) (*model.InPaintResponse, error) {

@@ -1,18 +1,18 @@
-# stablediffusionapi
+# github.com/wilinz/stablediffusionapi
 
 # How to use
 
 ```go
-package stablediffusionapi
+package github.com/wilinz/stablediffusionapi
 
 import (
 	"fmt"
 	"os"
-	"stablediffusionapi/sdcommunity"
-	"stablediffusionapi/sdconfig"
-	"stablediffusionapi/sdinit"
-	"stablediffusionapi/sdstandard"
-	"stablediffusionapi/sdstandard/model"
+	"github.com/wilinz/stablediffusionapi/sdcommunity"
+	"github.com/wilinz/stablediffusionapi/sdconfig"
+	"github.com/wilinz/stablediffusionapi/sdinit"
+	"github.com/wilinz/stablediffusionapi/sdstandard"
+	"github.com/wilinz/stablediffusionapi/sdstandard/model"
 	"testing"
 )
 

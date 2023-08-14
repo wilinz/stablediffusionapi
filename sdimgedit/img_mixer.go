@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func ImgMixer(payload model.ImgMixerRequest) (*model.ImgMixerResponse, error) {
 	url := "v5/interior"

@@ -1,6 +1,6 @@
 package sd3d
 
-import "stablediffusionapi/sd3d/model"
+import "github.com/wilinz/stablediffusionapi/sd3d/model"
 
 func TextTo3d(payload model.TextTo3dRequest) (*model.TextTo3dResponse, error) {
 	url := "v3/txt_to_3d"

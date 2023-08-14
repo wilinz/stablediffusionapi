@@ -1,7 +1,7 @@
 package sdcommunity
 
 import (
-	"stablediffusionapi/sdcommunity/model"
+	"github.com/wilinz/stablediffusionapi/sdcommunity/model"
 )
 
 func Img2Img(payload model.Img2ImgRequest) (*model.Img2ImgResponse, error) {

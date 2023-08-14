@@ -1,13 +1,13 @@
-package stablediffusionapi
+package github
 
 import (
 	"fmt"
+	"github.com/wilinz/stablediffusionapi/sdcommunity"
+	"github.com/wilinz/stablediffusionapi/sdconfig"
+	"github.com/wilinz/stablediffusionapi/sdinit"
+	"github.com/wilinz/stablediffusionapi/sdstandard"
+	"github.com/wilinz/stablediffusionapi/sdstandard/model"
 	"os"
-	"stablediffusionapi/sdcommunity"
-	"stablediffusionapi/sdconfig"
-	"stablediffusionapi/sdinit"
-	"stablediffusionapi/sdstandard"
-	"stablediffusionapi/sdstandard/model"
 	"testing"
 )
 

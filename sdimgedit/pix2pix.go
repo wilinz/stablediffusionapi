@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func Pix2Pix(payload model.Pix2PixRequest) (*model.Pix2PixResponse, error) {
 	url := "v5/pix2pix"

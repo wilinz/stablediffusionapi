@@ -1,7 +1,7 @@
 package sdstandard
 
 import (
-	"stablediffusionapi/sdstandard/model"
+	"github.com/wilinz/stablediffusionapi/sdstandard/model"
 )
 
 func GetSystemLoad() (*model.SystemLoadResponse, error) {

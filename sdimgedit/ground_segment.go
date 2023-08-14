@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func GroundSegment(payload model.GroundSegmentRequest) (*model.GroundSegmentResponse, error) {
 	url := "v5/ground_segment"

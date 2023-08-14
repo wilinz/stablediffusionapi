@@ -1,6 +1,6 @@
 package sdimgedit
 
-import "stablediffusionapi/sdimgedit/model"
+import "github.com/wilinz/stablediffusionapi/sdimgedit/model"
 
 func SuperResolution(payload model.SuperResolutionRequest) (*model.SuperResolutionResponse, error) {
 	url := "v3/super_resolution"

@@ -2,16 +2,16 @@ package sdinit
 
 import (
 	"github.com/go-resty/resty/v2"
-	"stablediffusionapi/sd3d"
-	"stablediffusionapi/sdcommunity"
-	"stablediffusionapi/sdconfig"
-	"stablediffusionapi/sdimgedit"
-	"stablediffusionapi/sdstandard"
+	"github.com/wilinz/stablediffusionapi/sd3d"
+	"github.com/wilinz/stablediffusionapi/sdcommunity"
+	"github.com/wilinz/stablediffusionapi/sdconfig"
+	"github.com/wilinz/stablediffusionapi/sdimgedit"
+	"github.com/wilinz/stablediffusionapi/sdstandard"
 )
 
 var currentHttpClient *resty.Client
 
-const baseUrl = "https://stablediffusionapi.com/api/"
+const baseUrl = "https://github.com/wilinz/stablediffusionapi.com/api/"
 
 func init() {
 	config := sdconfig.SDConfig{

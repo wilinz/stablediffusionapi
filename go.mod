@@ -1,4 +1,4 @@
-module stablediffusionapi
+module github.com/wilinz/stablediffusionapi
 
 go 1.18
 
