@@ -1,19 +1,23 @@
 # github.com/wilinz/stablediffusionapi
 
+# Illustrate
+This library is https://stablediffusionapi.com/ Go SDK (unofficial)
+API documentation address: https://stablediffusionapi.com/docs/
+
 # How to use
 
 ```go
 package github.com/wilinz/stablediffusionapi
 
 import (
-	"fmt"
-	"os"
-	"github.com/wilinz/stablediffusionapi/sdcommunity"
-	"github.com/wilinz/stablediffusionapi/sdconfig"
-	"github.com/wilinz/stablediffusionapi/sdinit"
-	"github.com/wilinz/stablediffusionapi/sdstandard"
-	"github.com/wilinz/stablediffusionapi/sdstandard/model"
-	"testing"
+"fmt"
+"os"
+"github.com/wilinz/stablediffusionapi/sdcommunity"
+"github.com/wilinz/stablediffusionapi/sdconfig"
+"github.com/wilinz/stablediffusionapi/sdinit"
+"github.com/wilinz/stablediffusionapi/sdstandard"
+"github.com/wilinz/stablediffusionapi/sdstandard/model"
+"testing"
 )
 
 func init() {
